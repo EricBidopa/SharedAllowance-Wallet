@@ -72,5 +72,11 @@ contract simpleWallet is allowanceSection{ //The beauty of inheritance.!
         return address(this).balance;
     }
 
-    
-}
+    // for flexibility, I use Remix IDE most at time because I get to search for more information easily. I just open a new tab./
+
+    // This is a contract that give  contract owner the power to make someone a co-woner but can also set a cap for the maximum amount of tokens thet co-owner can withdraw.
+    // this ... is .... a ...shared.... wallet. Thanks. <3
+    //let us deploy to VM
+    // as you can see, admin can also transfer ownership. This contract is actually 2 in 1 lol. let me show you. There you go.
+    // 
+}//alright. That is it them.
